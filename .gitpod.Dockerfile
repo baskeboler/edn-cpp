@@ -6,4 +6,4 @@ FROM gitpod/workspace-full
 #
 # More information: https://www.gitpod.io/docs/config-docker/
 
-run sudo apt-get update && sudo apt-get install libgtest-dev
+RUN  apt-get update &&  apt-get install -y libgtest-dev libgmock-dev googletest googletest-tools

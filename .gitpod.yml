@@ -2,9 +2,10 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: make
-    command: 'echo "TODO: Replace with command to start project"'
+  - init: mkdir build && cd build && cmake ..
+    command: make
 
 vscode:
   extensions:
     - ms-vscode.cmake-tools@1.4.1:SXfYiUwB07188Cqeu95dhg==
+    - twxs.cmake@0.0.17:9s7m9CWOr6i6NZ7CNNF4kw==
