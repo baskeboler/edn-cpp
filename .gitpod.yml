@@ -4,3 +4,7 @@ image:
 tasks:
   - init: make
     command: 'echo "TODO: Replace with command to start project"'
+
+vscode:
+  extensions:
+    - ms-vscode.cmake-tools@1.4.1:SXfYiUwB07188Cqeu95dhg==
