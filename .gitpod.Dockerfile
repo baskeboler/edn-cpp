@@ -6,4 +6,4 @@ FROM gitpod/workspace-full
 #
 # More information: https://www.gitpod.io/docs/config-docker/
 
-RUN sudo apt-get update && sudo apt-get install -y libgtest-dev libgmock-dev googletest googletest-tools doxygen
+RUN sudo apt-get update && sudo apt-get install -y libgtest-dev libgmock-dev googletest googletest-tools doxygen dot 
